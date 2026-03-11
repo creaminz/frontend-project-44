@@ -1,4 +1,4 @@
-import greetANdGetUserName from "../src/cli"
+import greetANdGetUserName from "../src/cli.js"
 
 console.log('Welcome to the Brain Games!')
 greetANdGetUserName()
