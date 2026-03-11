@@ -1,6 +1,4 @@
-import readlineSync from 'readlineSync'
+import greetANdGetUserName from "../src/cli"
 
 console.log('Welcome to the Brain Games!')
-
-var userName = readlineSync.question('May I have your name?');
-conaole.log(`Hello, ${userName}`);
+greetANdGetUserName()
