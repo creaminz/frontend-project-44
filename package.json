@@ -25,5 +25,12 @@
   "bugs": {
     "url": "https://github.com/creaminz/frontend-project-44/issues"
   },
-  "homepage": "https://github.com/creaminz/frontend-project-44#readme"
+  "homepage": "https://github.com/creaminz/frontend-project-44#readme",
+  "devDependencies": {
+    "@eslint/create-config": "^1.11.0",
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint": "^10.0.3",
+    "globals": "^17.4.0"
+  }
 }
