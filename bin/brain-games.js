@@ -1,7 +1,4 @@
 #!/usr/bin/env node
+import greetUser from '../src/cli.js';
 
-const greetUser = () => {
-    console.log('Welcome to the Brain Games!')
-};
-
-greetUser()
+greetUser();
