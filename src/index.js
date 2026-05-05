@@ -3,7 +3,7 @@ import readlineSync from 'readline-sync';
 const runEngine = (description, getRoundData) => {
   console.log('Welcome to the Brain Games!');
   console.log('May I have your name?');
-  const userName = readlineSync.question(' ')
+  const userName = readlineSync.question('');
   console.log(`Hello, ${userName}!`);
   console.log(description);
 
@@ -16,7 +16,7 @@ const runEngine = (description, getRoundData) => {
 
     if (userAnswer !== correctAnswer) {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
-      console.log(`Let's try again, ${userName}!`)
+      console.log(`Let's try again, ${userName}!`);
       return;
     }
     console.log('Correct!');
