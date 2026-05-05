@@ -13,7 +13,7 @@ const isPrime = (number) => {
     }
   }
   return true
-};
+}
 
 const generateRound = () => {
   const number = Math.floor(Math.random() * (100 - 1 + 1)) + 1
@@ -21,7 +21,7 @@ const generateRound = () => {
   const correctAnswer = isPrime(number) ? 'yes' : 'no'
 
   return [question, correctAnswer]
-};
+}
 
 const runPrimeGame = () => runEngine(description, generateRound)
 

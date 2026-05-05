@@ -10,7 +10,7 @@ const runEngine = (description, getRoundData) => {
   const roundsCount = 3
 
   for (let i = 0; i < roundsCount; i += 1) {
-    const [question, correctAnswer] = getRoundData();
+    const [question, correctAnswer] = getRoundData()
     console.log(`Question: ${question}`)
     const userAnswer = readlineSync.question('Your answer: ')
 
@@ -22,6 +22,6 @@ const runEngine = (description, getRoundData) => {
     console.log('Correct!')
   }
   console.log(`Congratulations, ${userName}!`)
-};
+}
 
 export default runEngine

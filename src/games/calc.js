@@ -15,13 +15,13 @@ const generateRound = () => {
   let result
   switch (randomOperator) {
     case '+':
-      result = number1 + number2;
+      result = number1 + number2
       break
     case '-':
-      result = number1 + number2;
+      result = number1 + number2
       break
     case '*':
-      result = number1 * number2;
+      result = number1 * number2
       break
     default:
       result = 0
@@ -30,7 +30,7 @@ const generateRound = () => {
   const correctAnswer = String(result)
 
   return [question, correctAnswer]
-};
+}
 
 const runCalcGame = () => runEngine(description, generateRound)
 

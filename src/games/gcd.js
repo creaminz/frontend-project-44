@@ -22,7 +22,7 @@ const generateRound = () => {
   const correctAnswer = String(gcd(number1, number2))
 
   return [question, correctAnswer]
-};
+}
 
 const runGcdGame = () => runEngine(description, generateRound)
 
